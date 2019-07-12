@@ -1,6 +1,6 @@
 # Capacitor Webview Overlay Plugin
 
-[![npm](https://img.shields.io/npm/v/@teamhive/capacitor-webview-overlay.svg)](https://www.npmjs.com/package/@teamhive/capacitor-webview-overlay)
+This is a fork of [@TeamHive/capacitor-webview-overlay](https://github.com/TeamHive/capacitor-webview-overlay)
 
 [Capacitor](https://capacitor.ionicframework.com/) plugin to overlay native webviews on top of your app. Supports iOS and Android.
 
@@ -40,3 +40,10 @@ No implementation provided.
 ## Usage
 
 This plugin uses a custom Javascript frontend, so each instance of the `WebviewOverlay` class will control a separate webview. The plugin requires an empty HTML element to determine the position and dimensions of the webview. This element is also used to display a screen capture of the webview if you need to have any app UI elements overlay the webview at any time. See the example project for implementation.
+
+
+# Development
+
+To use this lib locally you can use `yarn link` which will register this repository in your local npm cache. 
+After doing this you can go to your capacitor project directory and call `yarn link "@marwonline/capacitor-webview-overlay`
+to actually use the local package.
