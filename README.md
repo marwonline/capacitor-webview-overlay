@@ -6,7 +6,9 @@ This is a fork of [@TeamHive/capacitor-webview-overlay](https://github.com/TeamH
 
 ## Installation
 
-`npm i @teamhive/capacitor-webview-overlay`
+ATTENTION: This is a fork and not (yet) published on NPM! 
+
+`npm i @marwonline/capacitor-webview-overlay`
 
 ### Android
 
