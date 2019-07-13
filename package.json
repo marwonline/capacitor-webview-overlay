@@ -10,7 +10,7 @@
         "watch": "tsc --watch",
         "prepublishOnly": "npm run build"
     },
-    "author": "TeamHive",
+    "author": "marwonline",
     "license": "MIT",
     "dependencies": {
         "@capacitor/core": "^1.1.0",
@@ -42,9 +42,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/TeamHive/capacitor-webview-overlay"
+        "url": "https://github.com/marwonline/capacitor-webview-overlay"
     },
     "bugs": {
-        "url": "https://github.com/TeamHive/capacitor-webview-overlay/issues"
+        "url": "https://github.com/marwonline/capacitor-webview-overlay/issues"
     }
 }
