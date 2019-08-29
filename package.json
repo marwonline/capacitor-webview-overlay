@@ -13,13 +13,14 @@
     "author": "marwonline",
     "license": "MIT",
     "dependencies": {
-        "@capacitor/core": "^1.1.0",
+        "@capacitor/core": "^1.1.1",
         "resize-observer-polyfill": "^1.5.1"
     },
     "devDependencies": {
         "typescript": "^2.6.2",
-        "@capacitor/ios": "^1.1.0",
-        "@capacitor/android": "^1.1.0"
+        "@capacitor/ios": "^1.1.1",
+        "@capacitor/android": "^1.1.1",
+        "@capacitor/cli": "^1.1.1"
     },
     "files": [
         "dist/",
